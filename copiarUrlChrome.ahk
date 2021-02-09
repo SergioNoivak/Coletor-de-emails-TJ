@@ -1,5 +1,5 @@
 ﻿#SingleInstance, Force
-url_num := 6
+url_num := 27
 WinActivate,ahk_class Chrome_WidgetWin_1
 Loop % url_num
 {

@@ -1,20 +1,144 @@
 ﻿
-emails := ["https://www.tjam.jus.br/index.php/corregedoria","https://www.tjam.jus.br/index.php/estatistica-presidencia/contato","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=30","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=15","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=112","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=102","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=98","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=113","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=22","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=116","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=31","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=54","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=24","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=28","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=51","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=99","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=107","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=94","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=93","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=80","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=46","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=122","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=37","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=82","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=126","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=125"]
-emails2 := ["https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=8","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=58","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=12","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=130","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=109","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=173","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=153","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=129","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=42","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=41","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=19","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=172","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=121","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=76","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=149","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=32","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=40","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=39","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=48","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=95","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=61","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=147","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=62","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=141","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=17","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=18","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=165","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=11","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=138","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=137","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=134","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=114","https://www.tjam.jus.br/index.php/interior-comarcas?view=local&id=443","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=63","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=161","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=91"]
-emails3 := ["https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=163","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=2","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=10","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=3","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=106","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=25","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=175","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=164","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=162","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=5","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=4","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=1","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/civeis-comarcas?view=local&id=160","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=101","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/criminais-comarcas?view=local&id=111","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=77","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=120","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=123","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=142","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=83","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=84","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=79","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=68","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=69","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=52","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=359","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=374","https://www.tjam.jus.br/index.php/varas-comuns-comarcas/de-familia-comarcas?view=local&id=425","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=55","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=38","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=148","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=53","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=117","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=86","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=81","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=87","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=176","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=132","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=34","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/criminais-comarcas-especializadas?view=local&id=9","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=27","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=86","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=88"]
-emails4 := ["https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=170","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=174","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=168","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=169","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=64","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=404","https://www.tjam.jus.br/index.php/varas-especializadas-comarcas/civeis-comarcas-especializada?view=local&id=108","https://www.tjam.jus.br/index.php/juizados-comarcas/criminais-comarcas-juizados?view=local&id=105","https://www.tjam.jus.br/index.php/juizados-comarcas/criminais-comarcas-juizados?view=local&id=115","https://www.tjam.jus.br/index.php/juizados-comarcas/criminais-comarcas-juizados?view=local&id=110","https://www.tjam.jus.br/index.php/juizados-comarcas/criminais-comarcas-juizados?view=local&id=71","https://www.tjam.jus.br/index.php/juizados-comarcas/criminais-comarcas-juizados?view=local&id=145","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=6","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=65","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=73","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=119","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=144","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=23","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=74","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=33","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=67","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=135","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=66","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=70","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=14","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=154","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=49","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=26","https://www.tjam.jus.br/index.php/juizados-comarcas/civeis-comarcas-juizados?view=local&id=75","https://www.tjam.jus.br/index.php/trumas-recursais-comarcas?view=local&id=183","https://www.tjam.jus.br/index.php/trumas-recursais-comarcas?view=local&id=182","https://www.tjam.jus.br/index.php/itinerante-comarcas?view=local&id=313","https://www.tjam.jus.br/index.php/comarcas-casas-justica-cidadania-comarcas?view=local&id=348","https://www.tjam.jus.br/index.php/trumas-recursais-comarcas?view=local&id=184"]
+emails := []
+emails.Push("https://www.tjsc.jus.br/comarcas/abelardo-luz")
+emails.Push("https://www.tjsc.jus.br/comarcas/anchieta")
+emails.Push("https://www.tjsc.jus.br/comarcas/anita-garibaldi")
+emails.Push("https://www.tjsc.jus.br/comarcas/araquari")
+emails.Push("https://www.tjsc.jus.br/comarcas/ararangua")
+emails.Push("https://www.tjsc.jus.br/comarcas/armazem")
+emails.Push("https://www.tjsc.jus.br/comarcas/ascurra")
+emails.Push("https://www.tjsc.jus.br/comarcas/balneario-camboriu")
+emails.Push("https://www.tjsc.jus.br/comarcas/balneario-picarras")
+emails.Push("https://www.tjsc.jus.br/comarcas/barra-velha")
+emails.Push("https://www.tjsc.jus.br/comarcas/biguacu")
+emails.Push("https://www.tjsc.jus.br/comarcas/blumenau")
+emails.Push("https://www.tjsc.jus.br/comarcas/blumenau-forum-universitario")
+emails.Push("https://www.tjsc.jus.br/comarcas/bom-retiro")
+emails.Push("https://www.tjsc.jus.br/comarcas/braco-do-norte")
+emails.Push("https://www.tjsc.jus.br/comarcas/brusque")
+emails.Push("https://www.tjsc.jus.br/comarcas/cacador")
+emails.Push("https://www.tjsc.jus.br/comarcas/camboriu")
+emails.Push("https://www.tjsc.jus.br/comarcas/campo-belo-do-sul")
+emails.Push("https://www.tjsc.jus.br/comarcas/campo-ere")
+emails.Push("https://www.tjsc.jus.br/comarcas/campos-novos")
+emails.Push("https://www.tjsc.jus.br/comarcas/canoinhas")
+emails.Push("https://www.tjsc.jus.br/comarcas/capinzal")
+emails.Push("https://www.tjsc.jus.br/comarcas/capital")
+emails.Push("https://www.tjsc.jus.br/comarcas/capital-continente")
+emails.Push("https://www.tjsc.jus.br/comarcas/capital-forum-direito-bancario")
+emails.Push("https://www.tjsc.jus.br/comarcas/capital-forum-eduardo-luz")
+emails.Push("https://www.tjsc.jus.br/comarcas/capital-norte-da-ilha")
+emails.Push("https://www.tjsc.jus.br/comarcas/capivari-de-baixo")
+emails.Push("https://www.tjsc.jus.br/comarcas/catanduvas")
+emails.Push("https://www.tjsc.jus.br/comarcas/chapeco")
+emails.Push("https://www.tjsc.jus.br/comarcas/concordia")
+emails.Push("https://www.tjsc.jus.br/comarcas/coronel-freitas")
+emails.Push("https://www.tjsc.jus.br/comarcas/correia-pinto")
+emails.Push("https://www.tjsc.jus.br/comarcas/criciuma")
+emails.Push("https://www.tjsc.jus.br/comarcas/cunha-pora")
+emails.Push("https://www.tjsc.jus.br/comarcas/curitibanos")
+emails.Push("https://www.tjsc.jus.br/comarcas/descanso")
+emails.Push("https://www.tjsc.jus.br/comarcas/dionisio-cerqueira")
+emails.Push("https://www.tjsc.jus.br/comarcas/forquilhinha")
+emails.Push("https://www.tjsc.jus.br/comarcas/fraiburgo")
+emails.Push("https://www.tjsc.jus.br/comarcas/garopaba")
+emails.Push("https://www.tjsc.jus.br/comarcas/garuva")
+emails.Push("https://www.tjsc.jus.br/comarcas/gaspar")
+emails.Push("https://www.tjsc.jus.br/comarcas/guaramirim")
+emails.Push("https://www.tjsc.jus.br/comarcas/herval-d-oeste")
+emails.Push("https://www.tjsc.jus.br/comarcas/ibirama")
+emails.Push("https://www.tjsc.jus.br/comarcas/icara")
+emails.Push("https://www.tjsc.jus.br/comarcas/imarui")
+emails.Push("https://www.tjsc.jus.br/comarcas/imbituba")
+emails.Push("https://www.tjsc.jus.br/comarcas/indaial")
+emails.Push("https://www.tjsc.jus.br/comarcas/ipumirim")
+emails.Push("https://www.tjsc.jus.br/comarcas/ita")
+emails.Push("https://www.tjsc.jus.br/comarcas/itaiopolis")
+emails.Push("https://www.tjsc.jus.br/comarcas/itajai")
+emails.Push("https://www.tjsc.jus.br/comarcas/itapema")
+emails.Push("https://www.tjsc.jus.br/comarcas/itapiranga")
+emails.Push("https://www.tjsc.jus.br/comarcas/itapoa")
+emails.Push("https://www.tjsc.jus.br/comarcas/ituporanga")
+emails.Push("https://www.tjsc.jus.br/comarcas/jaguaruna")
+emails.Push("https://www.tjsc.jus.br/comarcas/jaragua-do-sul")
+emails.Push("https://www.tjsc.jus.br/comarcas/joacaba")
+emails.Push("https://www.tjsc.jus.br/comarcas/joinville")
+emails.Push("https://www.tjsc.jus.br/comarcas/joinville-forum-fazendario")
+emails.Push("https://www.tjsc.jus.br/comarcas/lages")
+emails.Push("https://www.tjsc.jus.br/comarcas/laguna")
+emails.Push("https://www.tjsc.jus.br/comarcas/lauro-muller")
+emails.Push("https://www.tjsc.jus.br/comarcas/lebon-regis")
+emails.Push("https://www.tjsc.jus.br/comarcas/mafra")
+emails.Push("https://www.tjsc.jus.br/comarcas/maravilha")
+emails.Push("https://www.tjsc.jus.br/comarcas/meleiro")
+emails.Push("https://www.tjsc.jus.br/comarcas/modelo")
+emails.Push("https://www.tjsc.jus.br/comarcas/mondai")
+emails.Push("https://www.tjsc.jus.br/comarcas/navegantes")
+emails.Push("https://www.tjsc.jus.br/comarcas/orleans")
+emails.Push("https://www.tjsc.jus.br/comarcas/otacilio-costa")
+emails.Push("https://www.tjsc.jus.br/comarcas/palhoca")
+emails.Push("https://www.tjsc.jus.br/comarcas/palmitos")
+emails.Push("https://www.tjsc.jus.br/comarcas/papanduva")
+emails.Push("https://www.tjsc.jus.br/comarcas/pinhalzinho")
+emails.Push("https://www.tjsc.jus.br/comarcas/pomerode")
+emails.Push("https://www.tjsc.jus.br/comarcas/ponte-serrada")
+emails.Push("https://www.tjsc.jus.br/comarcas/porto-belo")
+emails.Push("https://www.tjsc.jus.br/comarcas/porto-uniao")
+emails.Push("https://www.tjsc.jus.br/comarcas/presidente-getulio")
+emails.Push("https://www.tjsc.jus.br/comarcas/quilombo")
+emails.Push("https://www.tjsc.jus.br/comarcas/rio-do-campo")
+emails.Push("https://www.tjsc.jus.br/comarcas/rio-do-oeste")
+emails.Push("https://www.tjsc.jus.br/comarcas/rio-do-sul")
+emails.Push("https://www.tjsc.jus.br/comarcas/rio-negrinho")
+emails.Push("https://www.tjsc.jus.br/comarcas/santa-cecilia")
+emails.Push("https://www.tjsc.jus.br/comarcas/santa-rosa-do-sul")
+emails.Push("https://www.tjsc.jus.br/comarcas/santo-amaro-da-imperatriz")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-bento-do-sul")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-carlos")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-domingos")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-francisco-do-sul")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-joao-batista")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-joaquim")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-jose")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-jose-do-cedro")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-lourenco-do-oeste")
+emails.Push("https://www.tjsc.jus.br/comarcas/sao-miguel-do-oeste")
+emails.Push("https://www.tjsc.jus.br/comarcas/seara")
+emails.Push("https://www.tjsc.jus.br/comarcas/sombrio")
+emails.Push("https://www.tjsc.jus.br/comarcas/taio")
+emails.Push("https://www.tjsc.jus.br/comarcas/tangara")
+emails.Push("https://www.tjsc.jus.br/comarcas/tijucas")
+emails.Push("https://www.tjsc.jus.br/comarcas/timbo")
+emails.Push("https://www.tjsc.jus.br/comarcas/trombudo-central")
+emails.Push("https://www.tjsc.jus.br/comarcas/tubarao")
+emails.Push("https://www.tjsc.jus.br/comarcas/turvo")
+emails.Push("https://www.tjsc.jus.br/comarcas/urubici")
+emails.Push("https://www.tjsc.jus.br/comarcas/urussanga")
+emails.Push("https://www.tjsc.jus.br/comarcas/videira")
+emails.Push("https://www.tjsc.jus.br/comarcas/xanxere")
+emails.Push("https://www.tjsc.jus.br/comarcas/xaxim")
 
-Loop % emails4.MaxIndex()
+contador := 0
+Loop % emails.MaxIndex()
 {
-Run ,% emails4[A_Index]
+Run ,% emails[A_Index]
 sleep 2000 
 Send, ^+i
 sleep 2000 
+Send, {Tab 1}
 SendInput, {Raw} function getEmails() {var search_in = document.body.innerHTML;string_context = search_in.toString();array_mails = string_context.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);return array_mails;}let emails = getEmails();copy(emails);
 Send, {Enter}
 sleep 5000 
 WinActivate, ahk_class Notepad
 Send, ^v
 Send,{Enter}
+if (contador < 15){
+    contador := contador + 1
+} else{
+    contador := 0
+    WinClose, ahk_exe msedge.exe
+
 }
+}
+
 Return
