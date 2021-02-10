@@ -79,5 +79,7 @@ class Extrator{
         this.RetornarParaNavegador()
       }
     }
-    
+    FecharNavegador(){
+        WinClose, ahk_exe msedge.exe
+    }
 }

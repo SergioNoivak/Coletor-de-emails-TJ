@@ -2,40 +2,52 @@
 #Include Extrator.ahk
 
 extrator := new Extrator()
-extrator.VisitarPagina()
-sleep 2000  
-extrator.AbrirDevTools()
-sleep 2000  
-extrator.PesquisarPalavra(1)
-sleep 3000
-extrator.ExtrairEmails()  
-sleep 1000
+iterator := extrator.words.MaxIndex()
+contadorAbas := 0
+Loop % iterator
+{
+    extrator.VisitarPagina()
+    sleep 2000  
+    extrator.AbrirDevTools()
+    sleep 2000  
+    extrator.PesquisarPalavra(A_Index)
+    sleep 3000
+    extrator.ExtrairEmails()  
+    sleep 1000
+    Loop 
+    {       if not extrator.isPossivelAvancarPagina   
+                break
 
-Loop 
-{       if not extrator.isPossivelAvancarPagina   
-            break
-        
-        extrator.VerificarEhPossivelAvancarPagina()
-        extrator.AvancarPagina()
-        extrator.ExtrairEmails()  
-        sleep 1000
+            extrator.VerificarEhPossivelAvancarPagina()
+            extrator.AvancarPagina()
+            extrator.ExtrairEmails()  
+            sleep 1000
+    }
+    If contadorAbas<10
+        contadorAbas := contadorAbas+1
+    Else{
+        extrator.FecharNavegador()
+        contadorAbas := 0
+
+    }
+    extrator := new Extrator()
 }
 
-; contador := 0
+    ; contador := 0
 
-;  Loop % words.MaxIndex()
-; {
+    ;  Loop % words.MaxIndex()
+    ; {
 
-; indice_word := A_Index
-; sleep 1000 
-; Run , "https://www.tjsp.jus.br/CanaisComunicacao/EmailsInstitucionais"
-; sleep 2000 
-; Send, ^+i
-; isDesabilitado := false
+    ; indice_word := A_Index
+    ; sleep 1000 
+    ; Run , "https://www.tjsp.jus.br/CanaisComunicacao/EmailsInstitucionais"
+    ; sleep 2000 
+    ; Send, ^+i
+    ; isDesabilitado := false
 
 
 
-; sleep 2000  
+    ; sleep 2000  
 ; word := "" . words[indice_word]
 ; SendInput, {Raw}  document.getElementById("NomeSetor").value = "%word%"
 ; Send, {Enter}
