@@ -33,5 +33,12 @@ Emails coletados por estado:
 <tr><th>Sergipe</th><th>	163</th></tr>
 <tr><th>Tocantins</th><th>	184</th></tr>
 </table>
+### Ambiente 
 
+Para executar os scripts é necessário:
 
+*  Windows 7/8/10
+* [AutoHotKey](https://www.autohotkey.com) instalado
+* Navegador Microsoft Edge atualizado
+
+Os scripts apresentam comportamentos diferentes conforme a máquina que estão sendo executados, para o projeto foi usado um computador com 20Gb de RAM DDR4, processador intel Core I5, 2.5GHz e SSD.
