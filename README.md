@@ -1,5 +1,5 @@
 # Coletor-de-emails-TJ
-Coletor de emails TJ é um repositório que contém scripts de automação na linguagem AutoHotKey para windows. O objetivo do projeto foi varrer os emails dos tribunais judiciários de cada um dos estados brasileiros.
+Coletor de emails TJ é um repositório que contém scripts de automação na linguagem AutoHotKey para windows. O objetivo do projeto foi varrer os emails dos tribunais judiciários de cada um dos estados brasileiros. Foram coletados 20 mil e 727 emails. 
 
 Emails coletados por estado:	
 
