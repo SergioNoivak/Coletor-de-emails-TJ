@@ -4,7 +4,7 @@ Coletor de emails TJ é um repositório que contém scripts de automação na li
 Emails coletados por estado:	
 
 
-<table style="width: 100%; font-size:10px;">
+<table style="width: 100%; font-size:5px;">
 <tr><th>Estado</th><th>	Emails</th></tr>
 <tr><th>Acre</th><th>	86</th></tr>
 <tr><th>Alagoas</th><th>	213</th></tr>
