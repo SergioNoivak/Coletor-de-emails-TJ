@@ -4,7 +4,7 @@ um dos estados brasileiros.
 
 Emails coletados por estado	
 	
-<table >
+<table style="width:100%">
 <tr><th>Estado</th><th>	Emails</th></tr>
 <tr><th>Acre</th><th>	86</th></tr>
 <tr><th>Alagoas</th><th>	213</th></tr>
