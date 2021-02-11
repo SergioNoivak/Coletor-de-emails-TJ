@@ -16,3 +16,9 @@ Loop % url_num
     Send, ^{Tab}
 }
 Return
+
+
+
+
+Emails coletados por estado	
+	

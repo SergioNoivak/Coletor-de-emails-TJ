@@ -3,8 +3,9 @@ Coletor de emails TJ é um repositório que contém scripts de automação na li
 um dos estados brasileiros.
 
 Emails coletados por estado	
-	
-<table style="width:100%">
+
+
+<table style="width: 100%">
 <tr><th>Estado</th><th>	Emails</th></tr>
 <tr><th>Acre</th><th>	86</th></tr>
 <tr><th>Alagoas</th><th>	213</th></tr>
@@ -34,3 +35,4 @@ Emails coletados por estado
 <tr><th>Sergipe</th><th>	163</th></tr>
 <tr><th>Tocantins</th><th>	184</th></tr>
 </table>
+
