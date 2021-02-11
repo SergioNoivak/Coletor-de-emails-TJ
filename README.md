@@ -33,6 +33,7 @@ Emails coletados por estado:
 <tr><th>Sergipe</th><th>	163</th></tr>
 <tr><th>Tocantins</th><th>	184</th></tr>
 </table>
+
 ### Ambiente 
 
 Para executar os scripts é necessário:
